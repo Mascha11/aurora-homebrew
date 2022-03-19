@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+<info>
+		<update version="0.0.1">
+			<file name="Statblocks.xml" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core/Statblocks.xml" />
+		</update>
+	</info>
 <element name="Winter Wolf" type="Item" source="Homebrew" id="ID_HOMEBREW_WINTER_WOLF">
     <description>
       <p class="indent"><em>Large Monstrosity</em></p>

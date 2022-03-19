@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-
+<info>
+		<update version="0.0.1">
+			<file name="Homebrew.xml" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core/Homebrew.xml" />
+		</update>
+	</info>
   <element name="Snow Wolf Cowl" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_SNOW_WOLF_COWL">
     <description>
 			<p>Few warriors can claim to have single-handedly bested a full grown snow wolf. Those that do can have the head of such a monster enchanted by a clan shaman, granting them the power to transform into the beast. Such cowls are prized trophies amongst the frozen norse clans, symbols of might and status.</p>
