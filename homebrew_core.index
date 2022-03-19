@@ -11,5 +11,6 @@
 	<files>
 		<file name="Homebrew.xml" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core/Homebrew.xml" />
 		<file name="Statblocks.xml" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core/Statblocks.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core/Source.xml" />
 	</files>
 </index>
