@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Homebrew Core</name>
+		<description>Costumely added Homebrew Content</description>
+		<update version="0.2.5">
+			<file name="homebrew_core.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="Homebrew.xml" url="" />
+		<file name="Statblocks.xml" url="" />
+	</files>
+</index>
