@@ -5,7 +5,7 @@
 			<file name="Homebrew.xml" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core/Homebrew.xml" />
 		</update>
 	</info>
-  <element name="Snow Wolf Cowl" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_SNOW_WOLF_COWL">
+  <element name="Snow Wolf Cowl" type="Magic Item" source="Homebrew Collection" id="ID_HOMEBREW_SNOW_WOLF_COWL">
     <description>
 			<p>Few warriors can claim to have single-handedly bested a full grown snow wolf. Those that do can have the head of such a monster enchanted by a clan shaman, granting them the power to transform into the beast. Such cowls are prized trophies amongst the frozen norse clans, symbols of might and status.</p>
 			<p class="indent">Wolf Form. As an action you can cast polymorph on yourself with a duration of 1 hour, no concentration required. When you do so, you ignore the spell's limitations to beasts and become a winter wolf (your GM has the stat block).</p>
@@ -27,7 +27,7 @@
 		</setters>
   </element>
 
- <element name="Corals Bite" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_CORALS_BITE">
+ <element name="Corals Bite" type="Magic Item" source="Homebrew Collection" id="ID_HOMEBREW_CORALS_BITE">
 		<description>
 			<p>Coral’s Bite is a bright, turquoise-blue trident with serrated edges, grown from the hardest coral of the ocean. The sawlike edges of the trident’s prongs account for the slashing damage this weapon can deliver</p>
       <p>Gain 30 Swim Speed and one hour Water Breathing</p>
@@ -64,7 +64,7 @@
     </rules>
 	</element>
 
-  <element name="Navel of the Moon" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_NAVEL_OF_THE_MOON">
+  <element name="Navel of the Moon" type="Magic Item" source="Homebrew Collection" id="ID_HOMEBREW_NAVEL_OF_THE_MOON">
 		<description>
 			<p>This fist-sized, egg-shaped jewel seems to catch all light and reflect it with scintillating radiance. It weighs 2 lbs.</p>
       <p class="indent"><b>Spellcasting Focus.</b> The Navel of the Moon can be used as a spellcasting focus. When you do, you gain a +3 bonus to spell attack rolls and spell save DCs.</p>
@@ -89,7 +89,7 @@
 			<stat name="spellcasting:attack" value="3" />
 		</rules>
 	</element>
-  <element name="Jackalopers" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_Jackalopers">
+  <element name="Jackalopers" type="Magic Item" source="Homebrew Collection" id="ID_HOMEBREW_Jackalopers">
     <description>
       <p>Inspired by the graceful, bounding jackalope, these boots confer the ability to lope gracefully across meadows, moors, and mountainsides. With a burst of extra power, an acrobatic user can leap out of the way of an incoming blow. Just make sure there's enough room or you might bang your head.</p>
       <p class="indent">These boots have <b>7 charges</b> and regain <b>1d6 + 1 charges</b> daily at dawn.</p>
@@ -105,7 +105,7 @@
       <set name="rarity">Uncommon</set>
     </setters>
   </element>
-  <element name="Second Chance" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_Second Chance">
+  <element name="Second Chance" type="Magic Item" source="Homebrew Collection" id="ID_HOMEBREW_Second Chance">
     <description>
       <p>A pocketwatch that keeps perfect time is always a useful bit of kit. This specimen is even more special, allowing its user a second chance to perform some action. As a bonus action immediately before vou make an ability check or attack roll, you can activate the stopwatch, setting a call back marker. After you make the ability check or attack roll (and after you know the outcome), you can choose to rewind time by a few seconds to the moment you took the bonus action (no action required). You must then reroll the ability check or attack roll and use the new result. Whether or not you choose to rewind to the call back marker, after you use this property, it can't be used again until the next dawn.</p>
     </description>
@@ -118,7 +118,7 @@
     </setters>
   </element>
 
-  <element name="Dreamy the Lucid" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_DREAMY">
+  <element name="Dreamy the Lucid" type="Magic Item" source="Homebrew Collection" id="ID_HOMEBREW_DREAMY">
     <description>
       <p>These adorable stuffed tovs can be found in many of the bedrooms of Cordette following the intrusion of a dreamholder into the village's collective dreamscape. Each toy's magic gives the villagers autonomy over their dreams, and acts as a preventative measure should another aberration try to take over the villagers' dreams again.</p>
       <p class="indent">While this toy is on your person, magic can t put you to sleep. If you fall asleep while holding this stuffy, its stimulating enchantment magic activates your psyche, causing you to become a lucid dreamer. While lucid dreaming in this way, you are aware if a creature uses the dream spell to influence you and, if you are asleep when initiative is rolled, you instantly awaken and aren't surprised.</p>
