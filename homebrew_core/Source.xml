@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.1">
+		<update version="0.2">
 			<file name="source.xml" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core/Source.xml" />
 		</update>
 	</info>
-	<element name="Homebrew Collection" type="Source" source="Core" id="ID_HOMEBREW">
+	<element name="Homebrew Collection" type="Source" source="Homebrew Collection" id="ID_HOMEBREW">
 		<description>
 			<![CDATA[<p>Homebrew content collected by my group</p>]]>
 		</description>
