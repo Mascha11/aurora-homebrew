@@ -3,6 +3,7 @@
 	<info>
 		<name>Homebrew Core</name>
 		<description>Costumely added Homebrew Content</description>
+		<author url="https://github.com/Mascha11/aurora-homebrew">Me</author>
 		<update version="0.2.5">
 			<file name="homebrew_core.index" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core.index" />
 		</update>
