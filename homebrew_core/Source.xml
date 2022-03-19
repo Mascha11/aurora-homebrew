@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.2">
+		<update version="0.3">
 			<file name="source.xml" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core/Source.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 		<setters>
 			<set name="abbreviation">MASCHA</set>
 			<set name="url">https://github.com/Mascha11/aurora-homebrew/tree/main/homebrew_core</set>
-			<set name="author" abbreviation="RDDT">Unearthed Arcana Subreddit</set>
+			<set name="author" abbreviation="RDDT">Maschas personal Collection</set>
 			<set name="homebrew">true</set>
 		</setters>
 	</element>
