@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+<element name="Winter Wolf" type="Item" source="Homebrew" id="ID_HOMEBREW_WINTER_WOLF">
+    <description>
+      <p class="indent"><em>Large Monstrosity</em></p>
+      <p class="indent"><b>Armor Class</b> 13 (Natural Armor)</p>
+      <p class="indent"><b>Hit Points</b> 75 (10d10+20)</p>
+      <p class="indent"><b>Speed</b> 50 ft.</p>
+      <table>
+        <thead>
+         <tr>
+    <th>STR</th> <th>DEX</th> <th>CON</th> <th>INT</th> <th>WIS</th> <th>CHA</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+    <td style="text-align:center">18(+4)</td> <td style="text-align:center">13(+1)</td> <td style="text-align:center">14(+2)</td> <td style="text-align:center">7(-2)</td> <td style="text-align:center">12(+1)</td> <td style="text-align:center">8(-1)</td>
+        </tr>
+        </tbody>
+        </table>
+      <p class="indent"><b>Skills</b> Perception +5, Stealth +3</p>  
+      <p class="indent"><b>Damage Immunities</b> Cold</p>
+      <p class="indent"><b>Senses</b> Passive Perception 15</p>
+      <p class="indent"><b>Languages</b> Common, Giant, Winter Wolf</p>
+      <p class="indent"><b>Proficiency Bonus</b> +2</p>
+      <p class="indent"><b>Keen Hearing and Smell.</b> The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+      <p class="indent"><b>Pack Tactics.</b> The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>
+      <p class="indent"><b>Snow Camouflage.</b> The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.</p>
+      <p><strong>Actions</strong></p>
+      <p class="indent"><b>Bite.</b> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</p>
+      <p class="indent"><b>Cold Breath (Recharge 5–6). </b>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one.</p>
+    </description>
+    <setters>
+            <set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">—</set>
+			<set name="type">Mount</set>
+    </setters>
+</element>
+</elements>

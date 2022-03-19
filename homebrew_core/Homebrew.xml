@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <element name="Snow Wolf Cowl" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_SNOW_WOLF_COWL">
+    <description>
+			<p>Few warriors can claim to have single-handedly bested a full grown snow wolf. Those that do can have the head of such a monster enchanted by a clan shaman, granting them the power to transform into the beast. Such cowls are prized trophies amongst the frozen norse clans, symbols of might and status.</p>
+			<p class="indent">Wolf Form. As an action you can cast polymorph on yourself with a duration of 1 hour, no concentration required. When you do so, you ignore the spell's limitations to beasts and become a winter wolf (your GM has the stat block).</p>
+			<p class="indent">You can end this spell early as a bonus action. Once you use this property, you can't do so again until the following dawn.</p>
+      <p> <b>Uncommon</b> When you use the Wolf Form property, you turn into a dire wolf instead of a winter wolf. </p>
+      <p> <b>Very Rare</b> You can use the Wolf Form property once per short rest and you have resistance to cold damage while you wear the cowl.</p>
+      <div class="reference">
+				<div element="ID_HOMEBREW_WINTER_WOLF"/>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+      
+		</setters>
+  </element>
+
+ <element name="Corals Bite" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_CORALS_BITE">
+		<description>
+			<p>Coral’s Bite is a bright, turquoise-blue trident with serrated edges, grown from the hardest coral of the ocean. The sawlike edges of the trident’s prongs account for the slashing damage this weapon can deliver</p>
+      <p>Gain 30 Swim Speed and one hour Water Breathing</p>
+      <p> As an action you can cast Bigby's Hand without any components. When cast in this way, the spell is modified as follows:</p>
+      <p class="indent">• The hand takes the form of two Medium spectral tentacles, sprouting from the shoulders of the Breastplate. They occupy your space and move with you.</p>
+      <p class="indent">• The reach of 'Clenched Fist'. 'Forceful Hand' and '"Grasping Hand' is increased to 15 feet "*Interposing Hand' can only be used on yourself.</p>
+      <p class="indent">The attack roll modifier for 'Clenched Fist' equals 4 plus your proficiency bonus. Once you use this feature, you can 't do so again until the armor spends 8 hours submerged in water.</p>
+      <p class="indent">• You can maintain two of the spell's effects simultaneously (e.g. use Clenched Fist while you have a target grappled with Grasping Hand), but can only command one of the tentacles with your bonus action each turn.</p>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_BIGBYS_HAND"/>
+			</div>
+      <p>This item has 3 charges and is recharged when a spellcaster performs an hour-long ritual, during which it expends a spell slot of Ist level or higher.</p>
+      <p class="intend"><b>Saltbolt.</b>As an action, you can speak the stone's command word, expending one charge and causing a frothy, turquoise bolt of force to strike any target within 120 feet. This bolt deals 1d6 force damage and 1d6 cold damage. A creature under the influence of the shield spell, or similar magic, takes no damage from this effect.</p>
+      <p><b>Rare variant:</b> Increase the force and cold damage to 2d6 cach.</p>
+
+		</description>
+		<setters>
+			<set name="keywords">trident</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="trident">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Trident</set>
+      <set name="enhancement">1</set>
+			<!--<set name="charges">3</set>-->
+		</setters>
+    <rules>
+      <stat name="trident:hp" value="-4"/>
+      <stat name="hp" value="trident:hp"/>
+      <stat name="ac:misc" value="2" />
+      <stat name="speed:swim" value="30"/>
+      <stat name="wisdom:save:misc" value="-1" />
+    </rules>
+	</element>
+
+  <element name="Navel of the Moon" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_NAVEL_OF_THE_MOON">
+		<description>
+			<p>This fist-sized, egg-shaped jewel seems to catch all light and reflect it with scintillating radiance. It weighs 2 lbs.</p>
+      <p class="indent"><b>Spellcasting Focus.</b> The Navel of the Moon can be used as a spellcasting focus. When you do, you gain a +3 bonus to spell attack rolls and spell save DCs.</p>
+      <p> Additionally, it can serve as the spell focus for spells that create a scrying sensor, such as arcane eye or scrying, replacing the other material components of the spell. It is never consumed by such spells.</p>
+	    <p>The Navel of the Moon has 7 charges and regains 1d4 + 3 expended charges daily at dawn.</p>
+	    <p class="indent"><strong><em>Spells.</em></strong>  While wielding the item, you can use an action to expend one or more charges to cast the following spells: <em>Arcane Eye</em> (2 charges) or <em>Clairvoyance</em> (1 charge) or <em>Identify</em> (1 charge)  or <em>Locate Creature</em> (2 charges) or <em>Locate Object</em> (1 charge) or <em>Scrying</em> (3 charges) or <em>True Seeing</em> (3 charges)</p>
+	    <p>The Navel of the Moon functions as the focus for these spells and is not consumed.</p>
+	    <p class="indent"><strong><em> Superior Scrying.</em></strong> When you cast a spell from this object that creates a scrying sensor, such as arcane eye or scrying, you can target a creature or area even if magic would foil the spell, as long as the spell used to block such scrying is not higher than the level of the spell you are using to scry.</p>
+    	<p>If warding magic is in place, but the level of the spell is equal to or less than the level of your scrying spell, make an ability check using your spellcasting ability. The DC for this check equals 10 + the level of the spell that would block your scrying. On a success, you are able to scry on that individual or location normally. On a fail, the spell fails and the charge used to cast it is wasted.</p>
+	    <p>Additionally, when using the Navel of the Moon as a spellcasting focus for a divination spell, you can target creatures or places on other planes of existence and can scry even through substances that would block the target, such as a thin sheet of lead or 10 feet of running water.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" />
+		</rules>
+	</element>
+  <element name="Jackalopers" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_Jackalopers">
+    <description>
+      <p>Inspired by the graceful, bounding jackalope, these boots confer the ability to lope gracefully across meadows, moors, and mountainsides. With a burst of extra power, an acrobatic user can leap out of the way of an incoming blow. Just make sure there's enough room or you might bang your head.</p>
+      <p class="indent">These boots have <b>7 charges</b> and regain <b>1d6 + 1 charges</b> daily at dawn.</p>
+      <p class="indent"><b>Loper. </b>As a bonus action when you jump, you can tap the heels of the boots together, increasing the distance or height you can jump by <b>10 feet</b> for that jump, though you can't jump farther than your remaining movement would allow.</p>
+      <p class="indent"><b>Last Second Leap.</b> As a reaction when you are the target of an attack by an attacker you can see, or when you make a Dexterity saving throw against an effect you can see, you can tap the heels of these boots together and expend <b>1 charge</b>. You gain a bonus to your AC or saving throw equal to <b>1d6</b></p>
+      <p class="indent">Immediately after the attack or saving throw is concluded, make a <b>DC 13 Dexterity (Acrobatics)</b> check. On a success, you move <b>10 feet</b> in a straight line to an unoccopied space you can see. On a failure you fall <b>prone</b> in your space. If there is no uncoccupied space 10 feet away from you, you automatically fail this check. This movement does not provoke attacks of opportunity.</p>
+    </description>
+    <setters>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+  <element name="Second Chance" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_Second Chance">
+    <description>
+      <p>A pocketwatch that keeps perfect time is always a useful bit of kit. This specimen is even more special, allowing its user a second chance to perform some action. As a bonus action immediately before vou make an ability check or attack roll, you can activate the stopwatch, setting a call back marker. After you make the ability check or attack roll (and after you know the outcome), you can choose to rewind time by a few seconds to the moment you took the bonus action (no action required). You must then reroll the ability check or attack roll and use the new result. Whether or not you choose to rewind to the call back marker, after you use this property, it can't be used again until the next dawn.</p>
+    </description>
+    <setters>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Unommon</set>
+    </setters>
+  </element>
+
+  <element name="Dreamy the Lucid" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_DREAMY">
+    <description>
+      <p>These adorable stuffed tovs can be found in many of the bedrooms of Cordette following the intrusion of a dreamholder into the village's collective dreamscape. Each toy's magic gives the villagers autonomy over their dreams, and acts as a preventative measure should another aberration try to take over the villagers' dreams again.</p>
+      <p class="indent">While this toy is on your person, magic can t put you to sleep. If you fall asleep while holding this stuffy, its stimulating enchantment magic activates your psyche, causing you to become a lucid dreamer. While lucid dreaming in this way, you are aware if a creature uses the dream spell to influence you and, if you are asleep when initiative is rolled, you instantly awaken and aren't surprised.</p>
+    </description>
+    <setters>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+
+</elements>
+
+
