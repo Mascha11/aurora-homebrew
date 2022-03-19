@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="source.xml" url="" />
+		</update>
+	</info>
+	<element name="Homebrew Collection" type="Source" source="Core" id="ID_HOMEBREW">
+		<description>
+			<![CDATA[<p>Homebrew content collected by my group</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">MASCHA</set>
+			<set name="url">https://github.com/Mascha11/aurora-homebrew/tree/main/homebrew_core</set>
+			<set name="author" abbreviation="RDDT">Unearthed Arcana Subreddit</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
