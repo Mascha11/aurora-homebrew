@@ -47,7 +47,7 @@ Components: V. S
 Duration: Concentration, up to 1 minute
 Class: Druid, Sorcerer, Warlock, Wizard
 
-Choose one creature you can see within range that is at least waist-deep in water, and choose a direction. Turbulent ribbons of underwater currents wrap around the creature. The target must succeed on a Strength saving throw at the start of each of its turns for the duration of the spell. On a failure, its swim speed is reduced to o until the start of its next turn and it is dragged 3o feet in the direction you chose, On a success, the creature can move as normal until the start of its next turn.
+Choose one creature you can see within range that is at least waist-deep in water, and choose a direction. Turbulent ribbons of underwater currents wrap around the creature. The target must succeed on a Strength saving throw at the start of each of its turns for the duration of the spell. On a failure, its swim speed is reduced to o until the start of its next turn and it is dragged 30 feet in the direction you chose, On a success, the creature can move as normal until the start of its next turn.
 
 As a bonus action on your turn, you can change the direction of the underwater currents. The spell ends early if the creature is ever out of the spell’s range, or is no longer submerged in water.
 
@@ -84,3 +84,18 @@ Your arm elongates, into a long, wet, suckered tentacle. As part of the spellcas
  The tentacle also serves as a useful appendage that can be used like a grappling hook or rope at the DM's discretion.
 
  At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.
+
+
+ THE BENDS
+ 3rd-level biomancy (can be replaced with transmutation)
+ Casting Time: 1 action
+ Range: 60 feet
+ Components: V, S
+ Duration: Instantaneous
+ Class: Druid, Sorcerer, Warlock, Wizard
+
+ You assault the internal chemistry of a creature you can see within range, causing bubbles of nitrogen to precipitate in its blood. The creature must make a Constitution saving throw, taking 6d8 poison damage and becoming poisoned for 1 minute on a failure. On a succeess, a creature takes half as much damage and is not poisoned. If your target is totally submerged in water, increase the damage dice from d8s to d10s.
+
+ A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+ At Higher Levels. When you cast this spell using a slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.

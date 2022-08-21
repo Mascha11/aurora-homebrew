@@ -2,10 +2,11 @@
 <elements>
   <info>
     <name>Spells</name>
-    <update version="0.1">
+    <update version="0.3">
       <file name="spells.xml" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core/spells.xml" />
     </update>
   </info>
+
 <element name="Blinding Radiance" type="Spell" source="Homebrew Collection" id="ID_HOMEBREW_SPELL_BLINDING_RADIANCE">
     <supports>Artificer, Cleric, Paladin, Sorcerer, Warlock</supports>
     <description>
@@ -13,7 +14,7 @@
       <p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 5th level or higher, the damage increases by1d10 for each slot level above 4th</p>
     </description>
     <setters>
-      <set name="keywords">acid</set>
+      <set name="keywords">radiance</set>
       <set name="level">4</set>
       <set name="school">Evocation</set>
       <set name="time">1 action</set>
@@ -27,4 +28,142 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
+
+<element name="Blood Frenzy" type="Spell" source="Homebrew Collection" id="ID_HOMEBREW_SPELL_BLOOD_FRENZY">
+    <supports>Artificer, Druid, Sorcerer, Warlock</supports>
+    <description>
+      <p>You touch a willing creature, sharpening its focus with the instincts of a killer. The creature has advantage to hit creatures that are bloodied (have fewer than half their maximum hit points). When there is a bloodied, hostile creature within 30 feet of the target of this spell, the target creature has disadvantage to attack creature’s that aren’t bloodied.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using- a slot of 3rd level or higher, you can affect one additional creature for each slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords">buff</set>
+      <set name="level">2</set>
+      <set name="school">Biomancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">up to 10 minutes</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a drop of blood, less than 24 hours old</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Pins and Needles" type="Spell" source="Homebrew Collection" id="ID_HOMEBREW_SPELL_PINS_AND_NEEDLES">
+    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>You momentarily shut down a small part of the nervous system of a creature you can see, before overstimulating it and causing crippling pain. The creature must succeed on a Constitution saving throw or take 1d8 psychic damage. If the target fails its saving throw by 5 or more, it has disadvantage on the next attack roll it makes within the next minute as it temporarily loses function of a limb.</p>
+      <p class="indent">The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+    </description>
+    <setters>
+      <set name="keywords">buff</set>
+      <set name="level">0</set>
+      <set name="school">Biomancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Riptide" type="Spell" source="Homebrew Collection" id="ID_HOMEBREW_SPELL_RIPTIDE">
+    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>Choose one creature you can see within range that is at least waist-deep in water, and choose a direction. Turbulent ribbons of underwater currents wrap around the creature. The target must succeed on a Strength saving throw at the start of each of its turns for the duration of the spell. On a failure, its swim speed is reduced to o until the start of its next turn and it is dragged 30 feet in the direction you chose, On a success, the creature can move as normal until the start of its next turn.</p>
+      <p class="indent">As a bonus action on your turn, you can change the direction of the underwater currents. The spell ends early if the creature is ever out of the spell’s range, or is no longer submerged in water.</p>
+    </description>
+    <setters>
+      <set name="keywords">buff</set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">up to 1 minute</set>
+      <set name="range">300 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Switcheroo" type="Spell" source="Homebrew Collection" id="ID_HOMEBREW_SWITCHEROO">
+    <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>You attempt to switch places with a Large or smaller target within range that you can see. The target must succeed on a Charisma saving throw or instantly teleport to your space whilst you teleport to the one it previously occupied.</p>
+      <p>A creature automatically succeeds on this saving throw if there is not enough space to accommodate either of the creatures. A willing creature may choose to fail the saving throw.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 4th level or higher, the range of this spell increases by 30 feet for each slot level above 3rd. When cast at 6th or 9th level, you may target Huge and Gargantuan creatures, respectively.</p>
+    </description>
+    <setters>
+      <set name="keywords">buff</set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">90 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Tentacle Lash" type="Spell" source="Homebrew Collection" id="ID_HOMEBREW_TENTACLE_LASH">
+    <supports>Druid, Ranger, Warlock, Wizard</supports>
+    <description>
+      <p>Your arm elongates, into a long, wet, suckered tentacle. As part of the spellcasting action and as an action on each of your turns you can perform a melee spell attack against a creature within 30 feet. On a hit you deal 5d8 bludgeoning damage and the target must make a Strength saving throw if it is Huge or smaller. On a failure, you may choose one of the following effects:</p>
+      <p> -The target is knocked prone.</p>
+      <p> -You disarm the target, you take one item or weapon the target is carrying or wielding (and that is not fastened, e.g. armour) and return it to your person.</p>
+      <p> The tentacle also serves as a useful appendage that can be used like a grappling hook or rope at the DM's discretion.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.</p>
+    </description>
+    <setters>
+      <set name="keywords">buff</set>
+      <set name="level">4</set>
+      <set name="school">Biomancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">up to 1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a miniature plunger</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="The Bends" type="Spell" source="Homebrew Collection" id="ID_HOMEBREW_THE_BENDS">
+    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>You assault the internal chemistry of a creature you can see within range, causing bubbles of nitrogen to precipitate in its blood. The creature must make a Constitution saving throw, taking 6d8 poison damage and becoming poisoned for 1 minute on a failure. On a succeess, a creature takes half as much damage and is not poisoned. If your target is totally submerged in water, increase the damage dice from d8s to d10s.</p>
+      <p>A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using a slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>
+    </description>
+    <setters>
+      <set name="keywords">buff</set>
+      <set name="level">3</set>
+      <set name="school">Biomancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"/>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
 </elements>
