@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 <info>
-		<update version="0.0.2">
-			<file name="Homebrew.xml" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core/Homebrew.xml" />
+		<update version="0.0.3">
+			<file name="Magic_Items.xml" url="https://raw.githubusercontent.com/Mascha11/aurora-homebrew/main/homebrew_core/Magic_Items.xml" />
 		</update>
 	</info>
   <element name="Snow Wolf Cowl" type="Magic Item" source="Homebrew Collection" id="ID_HOMEBREW_SNOW_WOLF_COWL">
